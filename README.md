@@ -14,32 +14,32 @@ By the end, you’ll be equipped to develop powerful, production-ready LLM syste
 
 ## 🧩 2. Course Content
 
-### [**1. OpenAI Function Calling**]()
+### [**1. OpenAI Function Calling**](https://github.com/michaWorku/Functions-Tools-Agents-Langchain/blob/main/L1-OpenAI_Function_Calling.ipynb)
 - Define and call functions using GPT-3.5/4.
 - Modes: `auto`, `none`, and force function execution.
 - Structured responses using JSON-based arguments.
 
-### [**2. LangChain Expression Language (LCEL)**]()
+### [**2. LangChain Expression Language (LCEL)**](https://github.com/michaWorku/Functions-Tools-Agents-Langchain/blob/main/L2-LCEL.ipynb)
 - Use `Runnables` to compose prompts, models, parsers.
 - Support for `async`, `batch`, `streaming`, `fallbacks`, and `parallelism`.
 - Create robust LLM chains with minimal code.
 
-### [**3. OpenAI Function Calling in LangChain**]()
+### [**3. OpenAI Function Calling in LangChain**](https://github.com/michaWorku/Functions-Tools-Agents-Langchain/blob/main/L3-Function_Calling.ipynb)
 - Use **Pydantic** to define function schemas.
 - Convert schemas to OpenAI-compatible format.
 - Bind functions directly to models and chains.
 
-### [**4. Tagging and Extraction**]()
+### [**4. Tagging and Extraction**](https://github.com/michaWorku/Functions-Tools-Agents-Langchain/blob/main/L4-Tagging_and_Extraction.ipynb)
 - Use LangChain + OpenAI to extract structured info from text.
 - **Tagging**: Extract sentiment, language, etc.
 - **Extraction**: Retrieve names, paper titles, and more from documents.
 
-### [**5. Tools and Routing**]()
+### [**5. Tools and Routing**](https://github.com/michaWorku/Functions-Tools-Agents-Langchain/blob/main/L5-Tools_Routing_API.ipynb)
 - Build tools using the `@tool` decorator.
 - Integrate external APIs (OpenAPI specs).
 - Route function calls based on user input context.
 
-### [**6. Conversational Agent**]()
+### [**6. Conversational Agent**](https://github.com/michaWorku/Functions-Tools-Agents-Langchain/blob/main/L6-Functional_Conversation.ipynb)
 - Construct tool-augmented conversational agents.
 - Use `agent_scratchpad` to track intermediate steps.
 - GUI demo via `Panel`.
@@ -47,14 +47,14 @@ By the end, you’ll be equipped to develop powerful, production-ready LLM syste
 
 ## 📓 3. Notebooks
 
-| Notebook Title | Description | Link |
-|----------------|-------------|------|
-| [`01_openai_function_calling.ipynb`]() | Learn the basics of OpenAI's function calling API. | 
-| [`02_lcel_chaining.ipynb`]() | Build modular chains with LangChain Expression Language. | 
-| [`03_pydantic_function_calling.ipynb`]() | Use Pydantic to structure and validate function schemas. | 
-| [`04_tagging_extraction.ipynb`]() | Perform text tagging and structured information extraction. | 
-| [`05_tools_routing.ipynb`]() | Define tools, integrate APIs, and route function calls. | 
-| [`06_conversational_agent.ipynb`]() | Create a tool-enhanced conversational assistant. |
+| Notebook Title | Description |
+|----------------|-------------|
+| [`01_openai_function_calling.ipynb`](https://github.com/michaWorku/Functions-Tools-Agents-Langchain/blob/main/L1-OpenAI_Function_Calling.ipynb) | Learn the basics of OpenAI's function calling API. |
+| [`02_lcel_chaining.ipynb`](https://github.com/michaWorku/Functions-Tools-Agents-Langchain/blob/main/L2-LCEL.ipynb) | Build modular chains with LangChain Expression Language. |
+| [`03_pydantic_function_calling.ipynb`](https://github.com/michaWorku/Functions-Tools-Agents-Langchain/blob/main/L3-Function_Calling.ipynb) | Use Pydantic to structure and validate function schemas. |
+| [`04_tagging_extraction.ipynb`](https://github.com/michaWorku/Functions-Tools-Agents-Langchain/blob/main/L4-Tagging_and_Extraction.ipynb) | Perform text tagging and structured information extraction. |
+| [`05_tools_routing.ipynb`](https://github.com/michaWorku/Functions-Tools-Agents-Langchain/blob/main/L5-Tools_Routing_API.ipynb) | Define tools, integrate APIs, and route function calls. |
+| [`06_conversational_agent.ipynb`](https://github.com/michaWorku/Functions-Tools-Agents-Langchain/blob/main/L6-Functional_Conversation.ipynb) | Create a tool-enhanced conversational assistant. |
 
 
 ## ⚙️ 4. Getting Started
